@@ -1,0 +1,16 @@
+{
+  "type" : "record",
+  "name" : "UserCreatedEvent",
+  "namespace" : "com.findinpath.avro",
+  "fields" : [ {
+    "name" : "userUuid",
+    "type" : "string"
+  }, {
+    "name" : "username",
+    "type" : "string"
+  }, {
+    "name" : "timestamp",
+    "type" : "long",
+    "logicalType" : "timestamp-millis"
+  }]
+}
